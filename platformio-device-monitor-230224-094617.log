@@ -1,0 +1,3148 @@
+[37mets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DOUT, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1084
+load:0x40078000,len:11220
+load:0x40080400,len:5360
+entry 0x4008067c
+�Ada
+[37me[37mts Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:[37m0[37mx00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DOUT, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1084
+load:0x40078000,len:11220
+load:0x40080400,len[37m:[37m5360
+entry 0x4008067c
+[37m�[37mA[37mda
+[37me[37mts Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, [37mS[37mPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DOUT, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1084
+load:0x40078000,len:11220[37m
+[37mload:0x40080400,len:5360
+entry 0x4008067c
+[37m�[37mA[37mda
+[37me[37mts Jul 29 2019 12:21:46
+
+rst:[37m0[37mx3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DOUT, clock div:2
+load:0x3fff00[37m1[37m8,len:4
+load:0x3fff001c,len:1084
+load:0x40078000,len:11220
+load:0x40080400,len:5360
+entry 0x4008067c
+[37m�[37m
+---WLED 0.14.0-b2 2302150 INIT---
+esp32 v3.3.6-16-gcc5440f6a2
+arduino-esp32 v1.0.x
+
+CPU:   ESP32-D0WDQ5 rev.3, 2 core(s), 240MHz.
+FLASH: 4MB, Mode 3 (DOUT), speed [37m4[37m0MHz.
+heap 287612
+PIN ALLOC: Pin 1 successfully allocated by 0x89 (137)
+Registering usermods ...
+[37mR[37meading config
+Reading settings from /wsec.json...
+JSON buffer locked. (3)
+[37mJ[37mSON buffer released. (3)
+JSON buffer locked. (1)
+Reading settings fro[37mm[37m /cfg.json...
+[37mP[37mIN ALLOC: Pin 16 successfully allocated by 0x82 (130)
+PIN ALLOC: Pin 0 successfully allocated by 0x85 (133)
+Starting usermod config.
+JSON buffer released. (1)[37m[37m
+Initializing strip
+[37mL[37moading custom palettes
+Loading custom ledmaps
+[37mU[37msermods setup
+lastReconnectAttempt == 0
+[37mA[37mccess point disabled (init).
+Connecting to Watts...
+[37m-[37m--DEBUG INFO---
+Runtime: 30000
+Unix time: 30,000
+Free heap: 227852
+Wifi state: 6
+State time: 30000
+NTP last sync: 999000000
+Client IP: 255.255.255.255
+Loops/sec: 509
+UM[37m [37mtime[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m[37m
+Connected[37m![37m IP address: 192.168.1.179
+Init STA interfaces
+[37mm[37mDNS started
+[37mW[37mS client connected.
+JSON buffer locked. (12)
+JSON buffer size: 20[37m7[37m4 for WS request (1133).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37mL[37mocal time: 00:01
+---DEBUG[37m [37mINFO---
+Runtime: 60013
+Unix time: 60,013
+Free heap: 198848
+Wifi state: 3
+State time: 60013
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2269
+UM time[ms]: 0/1
+S[37mt[37mrip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mJ[37mSON buffer locked. (11)
+JSON buffer released.[37m [37m(11)
+JSON buffer locked. (12)
+JSON buffer size: 2074 for WS request (1133).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37ms[37mettings resp0
+[37mW[37mS client disconnected.
+[37ms[37mettings resp10
+[37ms[37mettings resp0
+[37m-[37m--DEBUG INFO---
+Runtime: 9[37m0[37m026
+Unix time: 90,026
+Free heap: 199472
+Wifi state: 3
+State time: 60013
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2154
+UM time[ms]: 0/1
+Strip time[ms]: 0/2[37m
+[37mSegments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37ms[37mettings resp1
+[37mL[37mocal time: 00:02
+[37m-[37m--DEBUG INFO---
+Runtime: 120039
+Unix time: 120[37m,[37m039
+Free heap: 199472
+Wifi state: 3
+State time: 60013
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2147
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B[37m
+[37mModes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mW[37mriting settings to /wsec.[37mj[37mson...
+JSON buffer locked. (4)
+[37me[37mts Jul 29[37m [37m2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DOUT, cloc[37mk[37m div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1084
+load:0x40078000,len:11220
+[37ml[37moad:0x40080400,len:5360
+entry 0x4008067c
+[37m�[37m
+---WLED 0.14.0-b2 2302150 INIT---
+esp32 v3.3.6-16-gcc5440f6a2
+arduino-esp32 v1.0.x
+[37m[37m
+CPU:   ESP32-D0WDQ5 rev.3, 2 core(s), 240MHz.
+FLASH: 4MB, Mode 3 (DOUT), speed 40MHz.
+heap 287612
+PIN ALLOC: Pin 1 successfully allocated by 0x89 (137)
+Registering usermods ...
+[37mR[37meading config
+Reading settings from /wsec.json...
+JSON b[37mu[37mffer locked. (3)
+[37mJ[37mSON buffer released. (3)
+JSON buffer locked. (1)
+Reading settings from /cfg.json...
+[37mP[37mIN ALLOC: Pin 16 successfully allocated by 0x82 (130)
+PIN ALLOC: Pin 0 success[37mf[37mully allocated by 0x85 (133)
+Starting usermod config.
+JSON buffer released. (1)
+Initializing strip
+[37mL[37mo[37mading custom palettes
+Loading custom ledmaps
+Usermods setup
+lastReconnectAttempt == 0
+[37mA[37mccess point disabled (init).
+Connecting to Watts...
+[37m[37m
+Connected! IP address: 192.168.[37m1[37m.179
+Init STA interfaces
+[37mm[37mDNS started
+[37mF[37mileRead: /index.htm
+[37mN[37mot-Found HTTP call:
+URI: /skin.css
+FileRead: /skin.css
+[37mJ[37mSON buffer locked. (17)
+[37mJ[37mSON buffer size: 7622 for request: 6
+JSON buffer released. (17)
+[37mJ[37mSON buffer locked. (19)
+[37mJ[37mSON buffer released. (19)
+[37mJ[37mSON buffer locked. (17[37m)[37m
+JSON buffer size: 2073 for request: 3
+JSON buffer released. (17)
+[37mN[37mot-Found HTTP call:
+URI: /presets.json
+FileRead: /presets.json
+[37mW[37mS client connected.
+JSON buffer locked. (12)
+JSON buffer size: 2074 for WS request ([37m1[37m133).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37m-[37m--DEBUG INFO---
+Runtime: 30000
+Unix time: 30,000
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 99[37m9[37m000000
+Client IP: 192.168.1.179
+Loops/sec: 2512
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:01
+[37m-[37m--DEBUG INFO---
+Runtime: 60012
+Unix time: 60,012
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.1[37m7[37m9
+Loops/sec: 2151
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 90024
+Unix time: 90,024
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2147
+UM time[[37mm[37ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:02
+[37m-[37m--DEBUG INFO---
+Runt[37mi[37mme: 120036
+Unix time: 120,036
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2147
+UM time[ms]: 0/1
+Strip time[ms]: [37m0[37m/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 150049
+Unix time[37m:[37m 150,049
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2146
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72[37mB[37m
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:03
+[37m-[37m--DEBUG INFO---
+Runtime: 180062
+Unix time: 180,062
+Free he[37ma[37mp: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2146
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748[37mB[37m
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 210075
+Unix time: 210,075
+Free heap: 198828
+Wifi[37m [37mstate: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2148
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=7[37m4[37m8B
+Map: 2*0=0B
+[37mL[37mo[37mc[37mal time: 00:04
+[37m-[37m--DEBUG INFO---
+Runtime: 240088
+Unix time: 240,088
+Free heap: 198828
+Wifi state: 3
+State time:[37m [37m0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2148
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 270101
+Unix time: 270,101
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last syn[37mc[37m: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2147
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:05
+[37m-[37m--DEBUG INFO---
+Runtime: 300114
+Unix time: 300,114
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client [37mI[37mP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mJ[37mSON buffer locked. (11)
+JSON buffer released. [37m([37m11)
+JSON buffer locked. (12)
+JSON buffer size: 2074 for WS request (1134).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37m-[37m--DEBUG INFO---
+Runtime: 330127
+Unix time: 330,127
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179[37m[37m
+Loops/sec: 2168
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:06
+[37m-[37m--DEBUG INFO---
+Runtime: 360140
+Unix time: 360,140
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM [37mt[37mime[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---[37m[37m
+Runtime: 390152
+Unix time: 390,152
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[37m[[37mms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mJ[37mSON buffer locked. (11)
+JSON buffer released. (11)
+JSON buffer locked. (12)
+JSON buffer si[37mz[37me: 2074 for WS request (1134).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37mL[37mocal time: 00:07
+[37m-[37m--DEBUG INFO---
+Runtime: 420165[37m[37m
+Unix time: 420,165
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2160
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segmen[37mt[37ms: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 450178
+Unix time: 450,178
+[37mF[37mree heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4[37m*[37m187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:08
+[37m-[37m--DEBUG INFO---
+Runtime: 480191
+Unix time: 480,191
+Free heap: 198824
+Wif[37mi[37m state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=7[37m4[37m8B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 510203
+Unix time: 510,203
+Free heap: 198824
+Wifi state: 3
+State time: 0
+N[37mT[37mP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:09
+[37m-[37m--DEBUG INFO---
+Runtime: 540216
+Unix time: 540,216
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 9990[37m0[37m0000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 570229
+Unix time: 570,229
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 19[37m2[37m.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/0
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:10
+[37m-[37m--DEBUG INFO---
+Runtime: 600242
+Unix time: 600,242
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/[37ms[37mec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBU[37mG[37m INFO---
+Runtime: 630254
+Unix time: 630,254
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+St[37mr[37mip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:11
+[37m-[37m--DEBUG INFO---
+Runtime: 660266
+Un[37mi[37mx time: 660,266
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: [37m1[37m -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 690279
+Unix time: 690,279[37m
+[37mFree heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: [37m4[37m*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mJ[37mSON buffer locked. (11)
+JSON buffer released. (11)
+JSON buffer locked. (12)
+JS[37mO[37mN buffer size: 2074 for WS request (1134).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37mL[37mocal time: 00:12
+[37m-[37m--DEBUG INFO---
+Runtime: 720292
+Unix time: 720,292
+Free heap: 198828[37m[37m
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*[37m1[37m87=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 750305
+Unix time: 750,305
+Free heap: 198828
+Wifi state: 3
+S[37mt[37mate time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=[37m0[37mB
+[37mL[37mocal time: 00:13
+[37m-[37m--DEBUG INFO---
+Runtime: 780318
+Unix time: 780,318
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last [37ms[37mync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 810330
+Unix time: 810,330
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 19[37m2[37m.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:14
+[37m-[37m--DEBUG INFO---
+Runtime: 840342
+Unix time: 840,342
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 214[37m5[37m
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m-[37m-DEBUG INFO---
+Runtime: 870355
+Unix time: 870,355
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0[37m/[37m1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:15
+[37m-[37m--DEBUG INFO---
+Run[37mt[37mime: 900368
+Unix time: 900,368
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]:[37m [37m0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 930381
+Unix ti[37mm[37me: 930,381
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 7[37m2[37mB
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:16
+[37m-[37m--DEBUG INFO---
+Runtime: 960394
+Unix time: 960,394
+Free he[37ma[37mp: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=74[37m8[37mB
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 990407
+Unix time: 990,407
+Free heap: 198828
+Wifi [37ms[37mtate: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748[37mB[37m
+Map: 2*0=0B
+[37mL[37mocal time: 00:17
+[37m-[37m--DEBUG INFO---
+Runtime: 1020420
+Unix time: 1020,420
+Free heap: 198828
+Wifi state: 3
+State ti[37mm[37me: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1050433
+Unix time: 1050,433
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last s[37my[37mnc: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:18
+[37m-[37m--DEBUG INFO---
+Runtime: 1080446
+Unix time: 1080,446
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Cli[37me[37mnt IP: 192.168.1.179
+Loops/sec: 2146
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1110459
+Unix time: 1110,459
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.[37m1[37m.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:19
+[37m-[37m--DEBUG INFO---
+Runtime: 1140472
+Unix time: 1140,472
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2148[37m
+[37mUM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DE[37mB[37mUG INFO---
+Runtime: 1170485
+Unix time: 1170,485
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/[37m1[37m
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:20
+[37m-[37m--DEBUG INFO---
+Run[37mt[37mime: 1200498
+Unix time: 1200,498
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/1
+Strip time[ms[37m][37m: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1230511
+Unix tim[37me[37m: 1230,511
+Free heap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> [37m7[37m2B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:[37m2[37m1
+[37m-[37m--DEBUG INFO---
+Runtime: 1260524
+Unix time: 1260,524
+Free[37m [37mheap: 198828
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187[37m=[37m748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1290537
+Unix time: 1290,537
+Free heap: 198828
+Wifi s[37mt[37mate: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748[37mB[37m
+Map: 2*0=0B
+[37mL[37mocal time: 00:22
+[37m-[37m--DEBUG INFO---
+Runtime: 1320550
+Unix time: 1320,550
+Free heap: 198828
+Wifi state: 3
+State t[37mi[37mme: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mJ[37mSON buffer locked. (11)
+JSON buffer released. (11)
+JSON buffer locked. (12)
+JSON buffer size: 2074 for WS request (11[37m3[37m5).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37m-[37m--DEBUG INFO---
+Runtime: 1350563
+Unix time: 1350,563
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last [37ms[37mync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:23
+[37m-[37m--DEBUG INFO---
+Runtime: 1380576
+Unix time: 1380,576
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Cli[37me[37mnt IP: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1410589
+Unix time: 1410,589
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179[37m
+[37mLoops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:24
+[37m-[37m--DEBUG INFO---
+Runtime: 1440602
+Unix time: 1440,602
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141[37m
+[37mUM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG [37mI[37mNFO---
+Runtime: 1470615
+Unix time: 1470,615
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+S[37mt[37mrip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:25
+[37m-[37m--DEBUG INFO---
+Runti[37mm[37me: 1500628
+Unix time: 1500,628
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]:[37m [37m0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1530641
+Unix ti[37mm[37me: 1530,641
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> [37m7[37m2B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:26
+[37m-[37m--DEBUG INFO---
+Runtime: 1560654
+Unix time: 1560,654
+Free hea[37mp[37m: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748[37mB[37m
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1590667
+Unix time: 1590,667
+Free heap: 198824
+Wifi [37ms[37mtate: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748[37mB[37m
+Map: 2*0=0B
+[37mL[37mo[37mc[37mal time: 00:27
+[37m-[37m--DEBUG INFO---
+Runtime: 1620680
+Unix time: 1620,680
+Free heap: 198824
+Wifi state: 3
+State t[37mi[37mme: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1650693
+Unix time: 1650,693
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: [37m9[37m99000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:28
+[37m-[37m--DEBUG INFO---
+Runtime: 1680706
+Unix time: 1680,706
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client I[37mP[37m: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1710719
+Unix time: 1710,719
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+[37mL[37moops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:29
+[37m-[37m--DEBUG INFO---
+Runtime: 1740732
+Unix time: 1740,732
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+[37mU[37mM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG [37mI[37mNFO---
+Runtime: 1770745
+Unix time: 1770,745
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+S[37mt[37mrip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:30
+[37m-[37m--DEBUG INFO---
+Runtime:[37m [37m1800758
+Unix time: 1800,758
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/[37m1[37m
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1830771
+Unix time:[37m [37m1830,771
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72[37mB[37m
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:31
+[37m-[37m--DEBUG INFO---
+Runtime: 1860784
+Unix time: 1860,784
+Free heap[37m:[37m 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B[37m
+[37mData: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1890797
+Unix time: 1890,797
+Free heap: 198824
+Wifi st[37ma[37mte: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2137
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+[37mM[37map: 2*0=0B
+[37mL[37mocal time: 00:32
+[37m-[37m--DEBUG INFO---
+Runtime: 1920810
+Unix time: 1920,810
+Free heap: 198824
+Wifi state: 3
+State time: 0[37m[37m
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 1950823
+Unix time: 1950,823
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync[37m:[37m 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:33
+[37m-[37m--DEBUG INFO---
+Runtime: 1980836
+Unix time: 1980,836
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client I[37mP[37m: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2010849
+Unix time: 2010,849
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179[37m
+[37mLoops/sec: 2137
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:34
+[37m-[37m--DEBUG INFO---
+Runtime: 2040862
+Unix time: 2040,862
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139[37m
+[37mUM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG[37m [37mINFO---
+Runtime: 2070875
+Unix time: 2070,875
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2137
+UM time[ms]: 0/1
+[37mS[37mtrip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:35
+[37m-[37m--DEBUG INFO---
+Runtime[37m:[37m 2100888
+Unix time: 2100,888
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/[37m1[37m
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2130901
+Unix time: 2[37m1[37m30,901
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2137
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+[37mM[37modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:36
+[37m-[37m--DEBUG INFO---
+Runtime: 2160914
+Unix time: 2160,914
+Free he[37ma[37mp: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2136
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748[37mB[37m
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2190927
+Unix time: 2190,927
+Free heap: 198824
+Wifi s[37mt[37mate: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2137
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748[37mB[37m
+Map: 2*0=0B
+[37mL[37mocal time: 00:37
+[37m-[37m--DEBUG INFO---
+Runtime: 2220940
+Unix time: 2220,940
+Free heap: 198824
+Wifi state: 3
+State time: 0[37m[37m
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2250953
+Unix time: 2250,953
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync:[37m [37m999000000
+Client IP: 192.168.1.179
+Loops/sec: 2136
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:38
+[37m-[37m--DEBUG INFO---
+Runtime: 2280966
+Unix time: 2280,966
+Free heap: 198576
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP:[37m [37m192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2310979
+Unix time: 2310,979
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+[37mL[37moops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:39
+[37m-[37m--DEBUG INFO---
+Runtime: 2340992
+Unix time: 2340,992
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM[37m [37mtime[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INF[37mO[37m---
+Runtime: 2371005
+Unix time: 2371,005
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Stri[37mp[37m time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:40
+[37m-[37m--DEBUG INFO---
+Runtime: [37m2[37m401018
+Unix time: 2401,018
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1[37m[37m
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2431031
+Unix time: [37m2[37m431,031
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B[37m
+[37mModes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:41
+[37m-[37m--DEBUG INFO---
+Runtime: 2461044
+Unix time: 2461,044
+Free heap: 1[37m9[37m8824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Da[37mt[37ma: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2491057
+Unix time: 2491,057
+Free heap: 198824
+Wifi st[37ma[37mte: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B[37m
+[37mMap: 2*0=0B
+[37mL[37mocal time: 00:42
+[37m-[37m--DEBUG INFO---
+Runtime: 2521070
+Unix time: 2521,070
+Free heap: 198824
+Wifi state: 3
+State time: 0
+[37mN[37mTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2551083
+Unix time: 2551,083
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 9[37m9[37m9000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:43
+[37m-[37m--DEBUG INFO---
+Runtime: 2581096
+Unix time: 2581,096
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client I[37mP[37m: 192.168.1.179
+Loops/sec: 2137
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2611109
+Unix time: 2611,109
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loop[37ms[37m/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00[37m:[37m44
+[37m-[37m--DEBUG INFO---
+Runtime: 2641122
+Unix time: 2641,122
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM[37m [37mtime[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG IN[37mF[37mO---
+Runtime: 2671135
+Unix time: 2671,135
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Str[37mi[37mp time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:45
+[37m-[37m--DEBUG INFO---
+Runtime: 2[37m7[37m01148
+Unix time: 2701,148
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1[37m
+[37mSegments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2731161
+Unix time: [37m2[37m731,161
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2138
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+[37mM[37modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:46
+[37m-[37m--DEBUG INFO---
+Runtime: 2761174
+Unix time: 2761,174
+Free heap:[37m [37m198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+[37mD[37mata: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2791187
+Unix time: 2791,187
+Free heap: 198824
+Wifi state: 3[37m[37m
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: [37m2[37m*0=0B
+[37mL[37mocal time: 00:47
+[37m-[37m--DEBUG INFO---
+Runtime: 2821200
+Unix time: 2821,200
+Free heap: 198824
+Wifi state: 3
+State time: 0
+N[37mT[37mP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2851213
+Unix time: 2851,213
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999[37m0[37m00000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:48
+[37m-[37m--DEBUG INFO---
+Runtime: 2881226
+Unix time: 2881,226
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 1[37m9[37m2.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 2911239
+Unix time: 2911,239
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops[37m/[37msec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:49
+[37m-[37m--DEBUG INFO---
+Runtime: 2941252
+Unix time: 2941,252
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM t[37mi[37mme[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INF[37mO[37m---
+Runtime: 2971265
+Unix time: 2971,265
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Stri[37mp[37m time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal[37m [37mtime: 00:50
+[37m-[37m--DEBUG INFO---
+Runtime: 300127[37m8[37m
+Unix time: 3001,278
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segm[37me[37mnts: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3031291
+Unix time: 3031[37m,[37m291
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Mode[37ms[37m: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:51
+[37m-[37m--DEBUG INFO---
+Runtime: 3061304
+Unix time: 3061,304
+Free heap: [37m1[37m98824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+D[37ma[37mta: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3091317
+Unix time: 3091,317
+Free heap: 198824
+Wifi state: 3
+[37mS[37mtate time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*[37m0[37m=0B
+[37mL[37mocal time: 00:52
+[37m-[37m--DEBUG INFO---
+Runtime: 3121330
+Unix time: 3121,330
+Free heap: 198824
+Wifi state: 3
+State time: 0[37m
+[37mNTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3151343
+Unix time: 3151,343
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000[37m0[37m00
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:53
+[37m-[37m--DEBUG INFO---
+Runtime: 3181356
+Unix time: 3181,356
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP[37m:[37m 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3211369
+Unix time: 3211,369
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loo[37mp[37ms/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:54
+[37m-[37m--DEBUG INFO---
+Runtime: 3241382
+Unix time: 3241,382
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM [37mt[37mime[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO-[37m-[37m-
+Runtime: 3271395
+Unix time: 3271,395
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip t[37mi[37mme[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:55
+[37m-[37m--DEBUG INFO---
+Runtime: 330140[37m8[37m
+Unix time: 3301,408
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segm[37me[37mnts: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3331421
+Unix time: 3[37m3[37m31,421
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+M[37mo[37mdes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:56
+[37m-[37m--DEBUG INFO---
+Runtime: 3361434
+Unix time: 3361,434
+Free heap: 19[37m8[37m824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data[37m:[37m 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3391447
+Unix time: 3391,447
+Free heap: 198824
+Wifi state: 3[37m
+[37mState time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2[37m*[37m0=0B
+[37mL[37mocal time: 00:57
+[37m-[37m--DEBUG INFO---
+Runtime: 3421460
+Unix time: 3421,460
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NT[37mP[37m last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3451473
+Unix time: 3451,473
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000[37m0[37m00
+Client IP: 192.168.1.179
+Loops/sec: 2139
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:58
+[37m-[37m--DEBUG INFO---
+Runtime: 3481486
+Unix time: 3481,486
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 1[37m9[37m2.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3511499
+Unix time: 3511,499
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/s[37me[37mc: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 00:59
+[37m-[37m--DEBUG INFO---
+Runtime: 3541512
+Unix time: 3541,512
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM t[37mi[37mme[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO--[37m-[37m
+Runtime: 3571525
+Unix time: 3571,525
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip t[37mi[37mme[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mJ[37mSON buffer locked. (11)
+JSON buffer released. (11)
+JSON buffer locked. (12)
+JSON buffer size: 207[37m4[37m for WS request (1135).
+Sending WS data to a single client.
+JSON buffer released. (12)
+[37mL[37mocal time: 01:00
+[37m-[37m--DEBUG INFO---
+Runtime: 3601538[37m
+[37mUnix time: 3601,538
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2154
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segmen[37mt[37ms: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3631551
+Unix time: 3631,551[37m
+[37mFree heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2148
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: [37m4[37m*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:01
+[37m-[37m--DEBUG INFO---
+Runtime: 3661564
+Unix time: 3661,564
+Free heap: 198824[37m[37m
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2147
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4[37m*[37m187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3691577
+Unix time: 3691,577
+Free heap: 198824
+Wifi state: 3
+S[37mt[37mate time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2145
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0[37m=[37m0B
+[37mL[37mocal time: 01:02
+[37m-[37m--DEBUG INFO---
+Runtime: 3721590
+Unix time: 3721,590
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP [37ml[37mast sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3751603
+Unix time: 3751,603
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 99900000[37m0[37m
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:03
+[37m-[37m--DEBUG INFO---
+Runtime: 3781616
+Unix time: 3781,616
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.1[37m6[37m8.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3811629
+Unix time: 3811,629
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/se[37mc[37m: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:04
+[37m-[37m--DEBUG INFO---
+Runtime: 3841642
+Unix time: 3841,642
+Free heap: 197036
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM t[37mi[37mme[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+[37mR[37muntime: 3871655
+Unix time: 3871,655
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[37m[[37mms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:05
+[37m-[37m--DEBUG INFO---
+Runtime: 390166[37m8[37m
+Unix time: 3901,668
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segm[37me[37mnts: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3931681
+Unix time: 3931,68[37m1[37m
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes:[37m [37m4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:06
+[37m-[37m--DEBUG INFO---
+Runtime: 3961694
+Unix time: 3961,694
+Free heap: 1988[37m2[37m4
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data:[37m [37m4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 3991707
+Unix time: 3991,707
+Free heap: 198824
+Wifi state: 3[37m[37m
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2[37m*[37m0=0B
+[37mL[37mocal time: [37m0[37m1:07
+[37m-[37m--DEBUG INFO---
+Runtime: 4021720
+Unix time: 4021,720
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP l[37ma[37mst sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4051733
+Unix time: 4051,733
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000[37m[37m
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:08
+[37m-[37m--DEBUG INFO---
+Runtime: 4081746
+Unix time: 4081,746
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.1[37m6[37m8.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4111759
+Unix time: 4111,759
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/[37ms[37mec: 2145
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:09
+[37m-[37m-[37m-DEBUG INFO---
+Runtime: 4141772
+Unix time: 4141,772
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms][37m:[37m 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---[37m
+[37mRuntime: 4171785
+Unix time: 4171,785
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip tim[37me[37m[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:10
+[37m-[37m--DEBUG INFO---
+Runtime: 4201798
+U[37mn[37mix time: 4201,798
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments[37m:[37m 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4231811
+Unix time: 4231,81[37m1[37m
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: [37m4[37m*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:11
+[37m-[37m--DEBUG INFO---
+Runtime: 4261824
+Unix time: 4261,824
+Free heap: 198824[37m
+[37mWifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*[37m1[37m87=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4291837
+Unix time: 4291,837
+Free heap: 198824
+Wifi state: 3[37m
+[37mState time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2[37m*[37m0=0B
+[37mL[37mocal time: 01:12
+[37m-[37m--DEBUG INFO---
+Runtime: 4321850
+Unix time: 4321,850
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NT[37mP[37m last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4351863
+Unix time: 4351,863
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000[37m
+[37mClient IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal t[37mi[37mme: 01:13
+[37m-[37m--DEBUG INFO---
+Runtime: 4381876
+Unix time: 4381,876
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192[37m.[37m168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4411889
+Unix time: 4411,889
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/se[37mc[37m: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:14
+[37m-[37m--DEBUG INFO---
+Runtime: 4441902
+Unix time: 4441,902
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms[37m][37m: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---[37m
+[37mRuntime: 4471915
+Unix time: 4471,915
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip tim[37me[37m[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:15
+[37m-[37m--DEBUG INFO---
+Runtime: 4501928
+U[37mn[37mix time: 4501,928
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments[37m:[37m 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4531941
+Unix time: 4531,941
+Fr[37me[37me heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2144
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*1[37m8[37m7=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:16
+[37m-[37m--DEBUG INFO---
+Runtime: 4561954
+Unix time: 4561,954
+Free heap: 198824[37m
+[37mWifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*[37m1[37m87=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4591967
+Unix time: 4591,967
+Free heap: 198824
+Wifi state: 3
+Sta[37mt[37me time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B[37m
+[37mL[37mocal time: 01:17
+[37m-[37m--DEBUG INFO---
+Runtime: 4621980
+Unix time: 4621,980
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last[37m [37msync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4651993
+Unix time: 4651,993
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 9990000[37m0[37m0
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:18
+[37m-[37m--DEBUG INFO---
+Runtime: 4682006
+Unix time: 4682,006
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.[37m1[37m68.1.179
+Loops/sec: 2135
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4712019
+Unix time: 4712,019
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/se[37mc[37m: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:19
+[37m-[37m--DEBUG INFO---
+Runtime: 4742032
+Unix time: 4742,032
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2140
+UM time[m[37ms[37m]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+R[37mu[37mntime: 4772045
+Unix time: 4772,045
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[m[37ms[37m]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:20
+[37m-[37m--DEBUG INFO---
+Runtime: 4802058
+Un[37mi[37mx time: 4802,058
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments:[37m [37m1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4832071
+Unix time: 4832,07[37m1[37m
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes:[37m [37m4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:21
+[37m-[37m--DEBUG INFO---
+Runtime: 4862084
+Unix time: 4862,084
+Free heap: 198824[37m
+[37mWifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*[37m1[37m87=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4892097
+Unix time: 4892,097
+Free heap: 198824
+Wifi state: 3
+Sta[37mt[37me time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0[37mB[37m
+[37mL[37mocal time: 01:22
+[37m-[37m--DEBUG INFO---
+Runtime: 4922110
+Unix time: 4922,110
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP la[37ms[37mt sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 4952123
+Unix time: 4952,123
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 99900000[37m0[37m
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:23
+[37m-[37m--DEBUG INFO---
+Runtime: 4982136
+Unix time: 4982,136
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.16[37m8[37m.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5012149
+Unix time: 5012,149
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: [37m2[37m141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:24
+[37m-[37m--DEBUG INFO---
+Runtime: 5042162
+Unix time: 5042,162
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms[37m][37m: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+R[37mu[37mntime: 5072175
+Unix time: 5072,175
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[[37mm[37ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:25
+[37m-[37m--DEBUG INFO---
+Runtime: 5102188
+Unix [37mt[37mime: 5102,188
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2143
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 [37m-[37m> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5132201
+Unix time: 5132,201
+[37mF[37mree heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4[37m*[37m187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:26
+[37m-[37m--DEBUG INFO---
+Runtime: 5162214
+Unix time: 5162,214
+Free heap: 198824
+Wif[37mi[37m state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=[37m7[37m48B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5192227
+Unix time: 5192,227
+Free heap: 198824
+Wifi state: 3
+State t[37mi[37mme: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:27
+[37m-[37m--DEBUG INFO---
+Runtime: 5222240
+Unix time: 5222,240
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last s[37my[37mnc: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5252253
+Unix time: 5252,253
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000[37m
+[37mClient IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:28
+[37m-[37m--DEBUG INFO---
+Runtime: 5282266
+Unix time: 5282,266
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.16[37m8[37m.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5312279
+Unix time: 5312,279
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: [37m2[37m141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:29
+[37m-[37m-[37m-[37mDEBUG INFO---
+Runtime: 5342292
+Unix time: 5342,292
+Free heap: 198820
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]:[37m [37m0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runti[37mm[37me: 5372305
+Unix time: 5372,305
+Free heap: 198820
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2129
+UM time[ms]: 0/1
+Strip time[ms]:[37m [37m0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:30[37m
+[37m-[37m--DEBUG INFO---
+Runtime: 5402318
+Unix[37m [37mtime: 5402,318
+Free heap: 198820
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2129
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1[37m [37m-> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5432331
+Unix time: 5432,331
+Fre[37me[37m heap: 198820
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2130
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187[37m=[37m748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:31
+[37m-[37m--DEBUG INFO---
+Runtime: 5462344
+Unix time: 5462,344
+Free heap: 198824
+Wifi[37m [37mstate: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2130
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=7[37m4[37m8B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5492357
+Unix time: 5492,357
+Free heap: 198824
+Wifi state: 3
+Sta[37mt[37me time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0[37mB[37m
+[37mL[37mocal time: 01:32
+[37m-[37m--DEBUG INFO---
+Runtime: 5522370
+Unix time: 5522,370
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last[37m [37msync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 2141
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5552383
+Unix time: 5552,383
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Cli[37me[37mnt IP: 192.168.1.179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37mL[37mocal time: 01:33
+[37m-[37m--DEBUG INFO---
+Runtime: 5582396
+Unix time: 5582,396
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1[37m.[37m179
+Loops/sec: 2142
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
+[37m-[37m--DEBUG INFO---
+Runtime: 5612409
+Unix time: 5612,409
+Free heap: 198824
+Wifi state: 3
+State time: 0
+NTP last sync: 999000000
+Client IP: 192.168.1.179
+Loops/sec: 214[37m1[37m
+UM time[ms]: 0/1
+Strip time[ms]: 0/1
+Segments: 1 -> 72B
+Modes: 4*187=748B
+Data: 4*187=748B
+Map: 2*0=0B
